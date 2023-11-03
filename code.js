@@ -6,10 +6,6 @@ function m() {
    return r;
 }
 
-if (location.host != "makklooplgyt.github.io" || !location.pathname.startsWith("/webstore")) {
-    location.href = "https://makklooplgyt.github.io/newnosec/" + m();
-}
-
 document.head.innerHTML = `
 <style>
 tr:nth-child(even){background-color: #f2f2f2;}
